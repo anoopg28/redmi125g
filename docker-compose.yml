@@ -39,6 +39,8 @@ services:
       PMA_HOST: db
       PMA_ARBITRARY: 1
       MYSQL_ROOT_PASSWORD: rootpassword
+      # username : root
+      # password : rootpassword
 
 volumes:
   db_data:
